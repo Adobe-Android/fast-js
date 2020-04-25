@@ -8,11 +8,11 @@
     "rebuild": "node-gyp rebuild"
   },
   "dependencies": {
-    "node-gyp": "^5.0.1",
-    "nan": "^2.14.0"
+    "node-gyp": "^6.1.0",
+    "nan": "^2.14.1"
   },
   "engines": {
-    "node": "9.8.0"
+    "node": "13.12.0"
   },
   "author": "Ricky Powell <rickypmusic@gmail.com>",
   "repository": "https://github.com/rickypowell/fast-js.git",
