@@ -1,14 +1,14 @@
 # fast-js
-Example of how to start writing c++ modules for node
+Example of writing C++ modules for node
 
-1. make sure your have node 9.8.0 installed
-2. `$ npm install`
+1. make sure your have node 13.12.0 installed (or update the node engines variable with your version)
+2. `$ npm install` or `$ npm i` (shorthand)
 3. run the project with `$ npm start`
 
 ## What does it do?
-The example here is comparing the speed a which we do the same operations in c++ as also in JavaScript.
+This example aims to compare the speed at which we do the same operations in C++ and JavaScript.
 
 The operations include the following:
-- iterate for a large number count
-- changing a value of an number/integer on the program stack
-- printing a string of "hello\n" to standard output (stdout)
+- iterate over a large number count
+- change a value of an number/integer on the program stack
+- print a string of "hello\n" to standard output (stdout)
